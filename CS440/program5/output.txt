@@ -1,0 +1,32 @@
+-------------Preliminary setup----------------
+HMM read/write works correctly
+-------------Forward Algorithm----------------
+Forward Algorithm passed basic sanity check
+-------------Supervised Learning----------------
+Transitions differ! # revulsion 1.7596192811066716e-05 0
+Error in supervisedlearning
+-------------Viterbi Algorithm----------------
+Viterbi Completed Successfully
+-------------Backwards Algorithm----------------
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Error: Nothing returned from Backward Algorithm!
+Incorrect student value: -1
+ should be 1.3812314373629743e-09
+
+Error in Overall Backward Probability
+------------------EM--------------------
+Error: likelihood should be -105954.94191 but is None
+Transitions differ! # C 0.814506898514 0.664474228524
+Error in EM
