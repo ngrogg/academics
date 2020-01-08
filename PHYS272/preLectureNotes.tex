@@ -1,0 +1,2204 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{PHYS 272: Pre-Lecture Notes and Functions}
+\author{Nicholas Grogg}
+
+\begin{document}
+
+\maketitle
+
+\section{Electricity}
+BEGIN TEST 1
+\subsection{Lecture 1: Coulomb's law}
+
+\subsubsection{Pre-Lecture}
+\noindent
+Coulomb's Law: \\
+$k = 9*10^9 \frac{Nm^2}{C^2}$ \\
+$\vec{F}_{12} = k\frac{q_1 q_2}{r^{2}_{12}}\hat{r}_12$\\
+REMEMBER, convert from $\mu$C to C! 1C = 1,000,000 $\mu$
+
+$\vec{F} = G\frac{m_1 m_2}{r^2}\hat{r}$
+
+\vspace{2mm}
+
+\noindent
+Superposition principle\\
+$\vec{F} = q\vec{E} + q\vec{v} * \vec{B}$
+
+\vspace{2mm}
+
+\subsection{Lecture 2: Electric Fields}
+
+\subsubsection{Pre-Lecture}
+\noindent 
+$\vec{F} = k*\frac{Qq}{r^2}\hat{r}$
+
+\vspace{2mm}
+\noindent
+Discrete Distribution \\
+$\vec{E} \equiv \frac{\vec{F}}{q} = k \frac{Q}{r^2}\hat{r}$ \\
+$\vec{E} \equiv \frac{\vec{F}}{q} = \frac{1}{q} \sum^{}_{i} \vec{F}_{iq}$ 
+$\vec{E} = k \sum^{}_{i} \frac{Q_i}{r^2_{iq}} \hat{r}_iq$
+
+\vspace{2mm}
+\noindent
+Continuous Distribution \\
+$\vec{E} \equiv \frac{\vec{F}}{q} = \frac{1}{q} \int d\vec{F} = k \int \frac{dQ}{r^2}\hat{r}$
+
+\subsubsection{Homework}
+
+\noindent
+I can't find my work for Question 1, sorry...
+
+\vspace{2mm}
+
+\noindent
+Question 2-1: $E_x(P)$ \\
+$E_x(P) = k \frac{q_1}{r^2} cos(45)$
+
+\vspace{2mm}
+
+\noindent
+Question 2-2: $E_y(P)$\\
+$E_y(P) = E_x(P) + k \frac{q_2}{d^2} $
+
+\vspace{2mm}
+Question 2-3: A third charge is added \\
+$E_x(P) = k(\frac{q_1}{2d^2} cos(45) + \frac{q3}{d^2}) $
+
+\vspace{2mm}
+
+\noindent
+Question 2-4 \\
+I guessed C, I don't have the work for it sorry...
+
+\vspace{2mm}
+
+\noindent
+Question 2-5 \\
+I guessed E, I don't have the work for it sorry...
+
+\subsection{Lecture 3: Electric Flux and Field Lines}
+
+\subsubsection{Pre-Lecture}
+\noindent
+Electric Flux \\
+$\phi \equiv \int \vec{E} * d\vec{A}$ \\
+$\varepsilon_0 = 8.85 * 10^-12$
+
+\subsubsection{Homework}
+
+\noindent
+Question 1-1: What is $E_x(P)$ \\
+E = 2k$\frac{\lambda_1}{a}$ \\
+Conversion for $\lambda$ is $\lambda * 10^{-4}$ \\
+For mine, that means $\lambda_1 = -2.2$ is used as $-2.2 * 10^-4$ \\
+That converts from $\frac{\mu C}{cm}$ to $\frac{C}{m}$ \\
+I looked it up...
+
+\vspace{2mm}
+
+\noindent
+Question 1-2: $E_y(P)$ \\
+There is no Y movement, so the answer is 0.
+
+\vspace{2mm}
+
+\noindent
+Question 1-3: Total Flux pt.1 \\
+$\phi = h \frac{\lambda_1}{\varepsilon_0}$
+
+\vspace{2mm}
+
+\noindent
+Question 1-4: What is the new value for $E_x(P)$? \\
+$E_x(P) = \frac{2}{4 \pi \varepsilon_0} (\frac{\lambda_1}{a} + \frac{\lambda_2}{x})$ \\
+x = $\frac{a}{2}$
+
+\vspace{2mm}
+
+\noindent
+Question 1-5: total flux $\phi$ pt.1 \\
+I fucked this one up too many times with typos, but I'm pretty sure it's \\
+$h (\frac{\lambda_1 + \lambda_2}{\varepsilon_0}$) \\
+This is also the answer for 7
+
+\vspace{2mm}
+
+\noindent
+Question 1-6: Total Flux pt.2 \\
+$2k (\frac{\lambda_2}{a} + \frac{\lambda_1}{\frac{3a}{2}}) $
+
+\vspace{2mm}
+
+\noindent
+Question 1-7: Total flux $\phi$ pt.2 \\
+Same function as 1-5, hopefully...
+
+\vspace{2mm}
+
+\subsection{Lecture 4: Gauss' Law}
+
+\subsubsection{Pre-Lecture}
+\noindent
+Gauss' Law \\
+$\phi_{Net}$ = $\oint \vec{E}*d\vec{A}$ = $\frac{q_{enclosed}}{\varepsilon_0}$ \\
+$\phi = \frac{q_1}{\varepsilon_0} + \frac{q_2}{\varepsilon_0} $
+
+\vspace{2mm}
+
+\noindent
+On conducting shell\\
+$Q_{inner} = -q_o$ \\
+Induced inner charge density \\
+$\sigma_i = \frac{-q_o}{4 \pi R^{2}_{i}}$ \\
+Out charge density \\
+$\sigma_o = \frac{Q + q_o}{4 \pi R^{2}_{o}}$
+
+\vspace{2mm}
+
+\noindent
+Gauss' Law on a Sphere \\
+E = $\frac{Q}{4 \pi \varepsilon_0 r^2}$ \\
+Gauss' Law on a Cylinder \\
+E = $\frac{\lambda}{2 \pi \varepsilon_0 r}$ \\
+Infinite sheet of charge \\
+E = $\frac{\sigma}{2 \varepsilon_0}$
+
+\vspace{2mm}
+
+\noindent
+Spherical (3d) Field line density \\
+$\frac{~1}{A_{sphere}} (~\frac{1}{r^2})$ \\
+Cylindrical (2d) Field line density \\
+$\frac{~1}{A_{cylinder}} (\frac{~1}{r})$ \\
+Planar (1d) Field line density \\
+Constant
+
+\subsubsection{Homework}
+
+\noindent 
+Question 1 \\
+E = $\frac{q_{enclosed}}{A_{sphere} \varepsilon_0}$ \\
+$q_{enclosed} = \frac{Q}{4 \pi 100 (b^2 - a ^2)}$ \\
+$A_{sphere} = 4 \pi r^2$ \\
+Since the answer seems to be the same no matter what \\
+Answer =  -1.28798 * $10^7 \frac{N}{C}$
+
+\vspace{2mm}
+
+\noindent
+Question 2 \\
+$E = \frac{x}{2 \pi \varepsilon_0 r}$ \\
+$E_x = \frac{\frac{Q_inner}{L}}{2 \pi \varepsilon_0 r}$ \\
+Again, answer seems to be the same \\
+Answer = $311.485 \frac{N}{C}$
+
+\vspace{2mm}
+
+\noindent
+Question 3 \\
+3-1 \\
+$E_x(P) = \frac{q_1 + q_2}{r^2}$
+3-2 \\
+$E_y$(P) = 0 \\
+3-3 \\
+$E_x(R)$ = 0 \\
+3-4 \\
+$E_y(P) = k\frac{q_1}{r^2}$ \\
+3-5 \\
+$\sigma_b = \frac{q_1 + q_2}{4 \pi b^2}$ \\
+3-6 \\
+$\sigma_a = \frac{q_1}{4 \pi a^2}$ \\
+3-7 \\
+A, none\\
+Field is treated as if it's a single point. \\
+Really though, we have 3 choices and 5 guesses \\
+Guess until it's right! \\
+3-8 \\
+B, $E_2 = E_0$ \\
+Fields are equal as the charge on the outer shell has no effect on field in shell. \\
+Again though, 3 choices 5 chances, throw a dart!
+
+\vspace{2mm}
+
+\noindent
+Question 4 \\
+4-1 \\
+$\lambda_2 = \rho * \pi (b^2 - a^2)$ \\
+4-2 \\
+Answer = 0 \\
+4-3 \\
+$E_y(P) = \frac{(\lambda_1*10^6 + \lambda_2*10^6)}{2 \pi \varepsilon_0 r}$ \\
+4-4 \\
+E = ($\frac{\lambda_1*10^6}{2 \pi \varepsilon_0 r}$) \\
+4-5 \\
+E = ($\frac{\lambda_1*10^6}{2 \pi \varepsilon_0 r}$) \\
+4-6 through 4-8 \\
+a, b, and d
+
+\vspace{2mm}
+
+\noindent
+Question 5 \\
+5-1 \\
+E = $\frac{\lambda_1*10^6 + \lambda_2*10^6}{2 \pi \varepsilon_0 P}$ \\
+5-2 \\
+Answer is 0 \\
+5-3 \\
+E = $(\frac{\lambda_1*10^6}{2 \pi \varepsilon_0 r}) sin(30)$ \\
+5-4 \\
+E =  $(\frac{\lambda_1*10^6}{2 \pi \varepsilon_0 r}) cos(30)$ \\
+5-5 \\
+$\lambda_1 + \lambda_2$ \\
+5-6 \\
+- $\lambda_1$ \\
+5-7 \\
+$\lambda_1$
+
+\vspace{2mm}
+
+\noindent
+Question 6 \\
+6-1 \\
+E = $\frac{\sigma_1 + \sigma_2}{2 \varepsilon_0}$ \\
+6-2 \\
+Answer = 0 \\
+6-3 \\
+E = $\frac{\sigma_1-\sigma_2}{2 \varepsilon_0}$ \\
+6-4 \\
+Answer = 0 \\
+6-5 \\
+$\sigma_b = \frac{\sigma_1 + \sigma_2}{2}$ \\
+6-6 \\
+Answer = 0 \\
+6-7 \\
+$\sigma_a = \frac{\sigma_2 - \sigma_1}{2}$ \\
+6-8 \\
+None 
+
+\subsection{Lecture 5: Electric Potential Energy}
+
+\subsubsection{Pre-Lecture}
+\noindent
+Coulomb Force, conservative force \\
+$\vec{F}_E = \frac{1}{4 \pi \varepsilon_0} \frac{Qq}{r^2} \hat{r}$
+
+\vspace{2mm}
+
+\noindent 
+Work done by Coulomb Force \\
+$\vec{F}_E = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2} \hat{r}$ \\
+$W_{A \rightarrow B} = \int_{r_A}^{r_B} \vec{F}_E * d\vec{r}$ \\
+$W_{A \rightarrow B} = \frac{q_1 q_2}{4 \pi \varepsilon_0} \int_{r_A}^{r_B} \frac{1}{r^2} dr$ \\
+$W_{A \rightarrow B} = \frac{q_1 q_2}{4 \pi \varepsilon_0} (\frac{1}{r_A} - \frac{1}{r_B} )$ 
+
+\vspace {2mm}
+
+\noindent
+Electric Potential Energy \\
+$\Delta U_{AB} = W_{A \to B}$ \\
+Often use $r_A = \infty$ \\
+End up with \\
+$U_r \equiv \Delta U_{\infty r} = \frac{q_1 q_2}{4 \pi \varepsilon_0 r} $
+
+\vspace{2mm}
+
+\noindent
+Calculate Speed \\
+v = $\sqrt{\frac{q_1 q_2}{2 \pi \varepsilon_0 m_2}(\frac{1}{d} - \frac{1}{x})}$ \\
+$v_{max} = \sqrt{\frac{q_1q_2}{2 \pi \varepsilon_0 m_2 d}} $
+
+\vspace{2mm}
+
+\noindent
+System of Three Particles \\
+$\Delta U_1 = 0$ \\
+$\Delta U_2 = k \frac{q_1 q_2}{d}$ \\
+$\Delta U_3 = k \frac{q_1 q_3}{d} + k \frac{q_2 q_3}{d}$ \\
+$U_{System} = \Delta U_1 + \Delta U_2 + \Delta U_3$ \\
+System of N charged Particles \\
+$U_{System} = k \sum^{}_{i<j} \frac{q_i q_j}{r_{ij}} $
+
+\vspace{2mm}
+
+\noindent 
+Lecture slides \\
+$\Delta U = +\frac{1}{4 \pi \varepsilon_0} \frac{Qq}{r} - \frac{1}{4 \pi \varepsilon_0} \frac{2Qq}{r+d}$ \\
+For charges Q $\to$ d $\to$ Q $\to$ r Q \\
+$U = U_i + k qxq(\frac{1}{r} - \frac{2}{d+r}) = 0$ \\
+For charges $Q_1 \to r Q Q_2$, with distance d between charges $Q_1 and Q_2$ \\
+$U = U_i + k\frac{qxq}{r} - k \frac{qx2x}{d-r}$ \\
+I don't remember what the x's represent in this case...
+
+\subsubsection{Homework}
+
+\noindent
+5-1 \\
+$\Delta PE = \frac{q_1 q_2}{4 \pi \varepsilon_0}(\frac{1}{d_2}- \frac{1}{d_1})$
+
+\vspace{2mm}
+
+\noindent
+5-2 \\
+$\Delta U = 2(k \frac{q_1 q_3}{r_2} - k \frac{q_1 q_2}{r_1})$ \\
+$r_1 = \sqrt{a^2 + d^2_1}$ \\
+$r_2 = \sqrt{a^2 + d^2_2}$
+
+\vspace{2mm}
+
+\noindent
+5-3 \\
+U = $k \frac{q_a q_b}{r^2} + k \frac{q_c q_d}{2a}$
+
+\vspace{2mm}
+
+\noindent
+5-4 \\
+U = k $\frac{q_3 q_5}{2a}$
+
+\vspace{2mm}
+
+\noindent
+5-5 \\
+Answer is 0
+\subsection{Pre-Lecture 6: Electric Potential}
+
+\subsubsection{Pre-Lecture}
+
+\noindent
+Electric Potential \\
+V $\equiv \frac{U}{q} $ \\
+$\vec{E} \equiv \frac{\vec{F}}{q} = k \frac{Q}{r^2}\hat{r}$
+
+\vspace{2mm}
+
+\noindent
+Electric Potential Energy \\
+$W_{A \rightarrow B} = \int_A^B \vec{F} * d\vec{l} $ \\
+$\Delta U_{A \to B} = -W_{A \to B} $
+
+\vspace{2mm}
+
+\noindent
+Electric Potential Difference \\
+$\Delta V_{A \to B} \equiv \frac{\Delta U_{A \to B}}{q} = \int_{A}^{B} \vec{E} * d\vec{l}$ \\
+$\Delta V_{A \to B} = kQ (\frac{1}{r_B} - \frac{1}{r_A})$
+
+\vspace{2mm}
+
+\noindent
+Electric Potential \\
+V(r) $\equiv \Delta V_{r_0 \to r} = kQ(\frac{1}{r} - \frac{1}{r_0})$
+
+\vspace{2mm}
+
+\noindent
+Electric Potential for Point Charge \\
+V(r) = $\frac{kQ}{r}$
+
+\vspace{2mm}
+
+\noindent
+The Gradient in different coordinate systems \\
+Cartesian \\
+$\vec{\nabla}V = \frac{\partial V}{\partial x}\hat{i} + \frac{\partial V}{\partial y}\hat{j}+\frac{\partial V}{\partial z}\hat{k}$ \\
+Spherical \\
+$\vec{\nabla}V = \frac{\partial V}{\partial r}\hat{r} + \frac{1}{r}\frac{\partial V}{\partial \theta}\hat{\theta} + \frac{1}{r sin(\theta)}\frac{\partial V}{\partial \phi}\hat{\phi}$ \\
+Cylindrical \\
+$\vec{\nabla}V = \frac{\partial V}{\partial r}\hat{r} + \frac{1}{r}\frac{\partial V}{\partial \theta}\hat{\theta} + \frac{\partial V}{\partial z}\hat{k}$
+
+\vspace{2mm}
+
+\noindent
+$V_{Total} = \sum^{}_{i} V_i$ \\
+$V_p = k\frac{q}{a}(2-\frac{\sqrt(2)}{2})$
+
+\vspace{2mm}
+
+\noindent
+if $(r < a)$ \\
+E = k $\frac{Q}{a^3}r$ \\
+if $(r > a)$ \\
+E = k $\frac{Q}{r^2}$
+
+\vspace{2mm}
+
+\noindent
+Find V(r) \\
+For $r > a$ \\
+$V(r) = k \frac{Q}{r}$ \\
+For $r < a$ \\
+$V(r) = k \frac{Q}{2a^3}(3a^2 - r^2) $
+
+\subsubsection{Homework}
+
+\noindent
+1-1 \\
+Spheres V \\
+$\int_{\infty}^{0} E dr = -V(0)$ \\
+$\int_{\infty}^{0} E dr = \int_{\infty}^{9cm} + \int_{2.5cm}^{6cm} E dr $\\
+$\int E dr = \frac{-1}{4 \pi r \varepsilon_0}$ \\
+99.86 V + 629.13 V = 728.99V \\
+Factor in direction, answer $\approx$ -729V
+
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+I made a power of 10 error here \\
+Answer is something along  \\
+$Q = \rho * \pi * \frac{4}{3} * a^3$ \\
+$E_x = \frac{kQ}{r^2}$ \\
+I fucked up the unit conversion somewhere...
+
+\vspace{2mm}
+
+\noindent
+2-2 \\
+V = $\frac{KQ}{c}$ \\
+Remember to convert $K*10^{-6}$ 
+
+\vspace{2mm}
+
+
+\noindent
+2-3 \\
+$V_b + kQ(\frac{1}{r_a} - \frac{1}{r_b})$
+
+\vspace{2mm}
+
+
+\noindent
+2-4 \\
+Absolute value of V(a) -V(b) 
+
+\vspace{2mm}
+
+
+\noindent
+2-5 \\
+I did it wrong, but essentially you redo part 2\\
+$V_b = \frac{kQ_{new}}{c}$ \\
+Then add it to the value for 4 \\
+I kept getting minor errors.
+
+\vspace{2mm}
+
+\noindent
+3-1 \\
+$\lambda_{inner} = \rho \pi a^2$ \\
+$\lambda_{enclosed} = \lambda_{inner} + \lambda_{outer}$ \\
+E = 2k$\frac{\lambda_{enclosed}}{d}$ 
+
+\vspace{2mm}
+
+\noindent
+3-2 \\
+-($\frac{\lambda_{enclosed}}{2 \pi \varepsilon_0} ln(P) - \frac{\lambda_{enclosed}}{2 \pi \varepsilon_0} ln(R)$) 
+
+\vspace{2mm}
+
+
+\noindent
+3-3 \\
+$\frac{\rho a^2}{2 \varepsilon_0} ln(\frac{b}{a})$ \\
+I have no idea why that's correct, but it is...
+
+\vspace{2mm}
+
+
+\noindent
+3-4 \\
+A, $V(a) < 0$ \\
+\vspace{2mm}
+
+
+\noindent
+3-5 \\
+$\rho = -\frac{\lambda_{outer}}{\pi a^2}$
+
+\vspace{2mm}
+
+\noindent
+4-1 \\
+E = $\frac{\sigma_1}{2 \varepsilon_0} + \frac{|\sigma_2|}{2 \varepsilon_0}$
+\vspace{2mm}
+
+\noindent
+4-2 \\
+$-\frac{|\sigma_i + \sigma_2|}{2} = \sigma_a$
+
+\vspace{2mm}
+
+\noindent
+4-3 \\
+0
+
+\vspace{2mm}
+
+\noindent
+4-4 \\
+Bear with me on this one\\
+E*$((S_x-R_x) - (b_x-a_x))$ \\
+Where $S_x$ etc. is the x value for each point
+
+\vspace{2mm}
+
+\noindent 
+4-5 \\
+E = $\frac{\sigma_1}{2 \varepsilon_0} - \frac{|\sigma_2|}{2 \varepsilon_0}$
+
+\vspace{2mm}
+
+\noindent
+4-6 \\
+B
+
+\subsection{Pre-Lecture 7: Conductors and Capacitance}
+
+\subsubsection{Pre-Lecture}
+
+\noindent 
+Capacitance \\
+C $\equiv \frac{Q}{\Delta V}$
+
+\vspace{2mm}
+
+\noindent 
+$\Delta V = \frac{Q}{\varepsilon_0 A} d$ \\
+For parallel-plates \\
+C = $\frac{\varepsilon_0 A}{d}$
+
+\vspace{2mm}
+
+\noindent
+dU = Vdq \\
+Stored Energy difference \\
+U = $\frac{1}{2}QV = \frac{1}]{2} \frac{Q^2}{C} = \frac{1}{2} CV^2 $ \\
+U = $\frac{1}{2} \varepsilon_0 E^2 Ad$ \\
+Energy density in area between plates \\
+u $\equiv \frac{U}{aD} = \frac{1}{2}\varepsilon_0 E^2$
+General energy density \\
+u = $\frac{1}{2}\varepsilon_0 E^2$
+
+\vspace{2mm}
+
+
+\subsubsection{Homework}
+\noindent
+Please note when converting $cm^2$ to $m^2$ the conversion rate is $cm^2\times 10^{-4}=m^2$ \\
+1-1 \\
+$C= \frac{A\varepsilon_0}{d}$ \\
+Q = C$V_b$ \\
+My answer was on the order of $10^{-9} C$
+\vspace{2mm}
+
+\noindent
+1-2 \\
+$U=\frac{QV}{2}$ \\
+My answer was on the order of  $10^{-8}J$
+\vspace{2mm}
+
+\noindent
+1-3 \\
+$U=QV$ \\
+Moving the plates apart does work and changes (increases) the voltage. Double distance = double voltage.
+
+\vspace{2mm}
+
+\noindent
+1-4 \\
+$\sigma = \frac{Q}{A}$ \\
+$E= \frac{\sigma}{\varepsilon_0}$ \\
+My answer was on the order of $10^{3}\frac{N}{C}$
+\vspace{2mm}
+
+\noindent
+1-5 \\
+$V>V_b$
+
+\vspace{2mm}
+
+\noindent
+1-6 \\
+Both $E$ and $V$ decrease
+
+\vspace{2mm}
+
+\section{DC Circuits}
+
+\subsection{Section 8: Capacitors}
+\subsubsection{Pre-Lecture}
+\noindent
+Capacitance of two parallel-plates = $\frac{a*b}{d}$ \\
+Dielectric increases Capacitance and reduces electric field \\
+Dielectric constant $\kappa$ \\
+$C_{Dielectric} = \kappa C_0$ \\
+U = $\frac{1}{2}QV_C$
+
+\vspace{2mm}
+
+\noindent
+Parallel processing is basically a sum of the capacitors \\
+$C_{equivalent} = \frac{\varepsilon_0 A{equivalent}}{d} = \frac{\varepsilon_0 (A_1 + A_2)}{d} $ \\
+C= $C_1 + C_2$ \\
+Series \\
+$\frac{1}{C_1} + \frac{1}{C_2} = \frac{1}{C_{equivalent}}$ \\
+$\frac{1}{C_{equivalent}} = \frac{d_1 + d_2}{\varepsilon_0A}$
+
+
+\subsubsection{Homework}
+
+\noindent
+1-1 \\
+1 NC = $10^9C$ \\
+One cap is 10 nF, the other is 10x2.6nF. Total of 36nF \\
+36nF * 12 V = 432 nC = $4.32*10^-7$
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+$C_3 + C_4 = \frac{2}{3}$ \\
+In parallel with $C_5 and C_6 = \frac{20}{3}$ \\
+In series witrh $C_1 = \frac{3 * (\frac{20}{3})}{(3 + \frac{20}{3})} = \frac{60}{29} = 2.069 $ \\
+Q = CV = 12 * 2.069 = 24.8 $\mu$C \\
+$V_{AB} = \frac{24.8}{\frac{20}{3}}$ = 3.72 V \\
+voltage across $C_3 and C_4$ together \\
+charge on these two is Q = 3.72 * $\frac{2}{3}$ = 2.48 $\mu$ C \\
+Voltage across $C_4$ = $\frac{Q}{C} = \frac{2.48}{1}$ = 2.48 V
+
+\vspace{2mm}
+
+\noindent
+3-1 \\
+$C_{23} = (\frac{1}{C_2} + \frac{1}{C_3})^{-1}$ \\
+$C_{ab} = C_{23} + C_4$ \\
+3-2 \\
+$C_{ab} = (\frac{1}{C_1} + \frac{1}{C_{ab}})^{-1}$ \\
+3-3 \\
+$Q_5 = C_{total}V$ \\
+3-4 \\
+$V_{ab} = V - 2\frac{Q_5}{C_5}$ \\
+$Q_2 = V_{ab} * \frac{C_2 * C_3}{C_2 + C_3}$ \\
+3-5 \\
+$Q_5 = C_{total}V$ \\
+3-6 \\
+$V_4 = V_{ab} = V - 2\frac{Q_5}{C_5}$
+
+\vspace{2mm}
+
+\noindent
+4-1 \\
+MIND YOUR UNITS HERE! I shit the bed SO bad on this section! \\
+C = $\varepsilon_0 \frac{A}{d}$ \\
+Convert $cm^2$ to $mm^2$ and cm to mm \\
+$cm^2$ to $mm^2$, add two zeroes! \\
+4-2 \\
+Q = C*Vb \\
+4-3 \\
+$Q_{new} = Q * \frac{2\kappa}{1+ \kappa}$ \\
+4-4 \\
+Convert $\mu C to C$ \\
+1 $\mu C = 10^{-6} C $ \\
+$U_{new} = \frac{Q_{new} V_b}{2}$ \\
+4-5 \\
+V = $\frac{Q_new}{C}$
+
+\vspace{2mm}
+
+\noindent 
+5-1\\
+$E_x(P) = 2k \frac{\lambda_{inner}}{d}$ \\
+5-2\\
+Answer should be positive! Mind the negative!!!\\
+- $\frac{-\lambda_{inner}*10^-6}{2 \pi \varepsilon_0} ln(\frac{b}{a})$ \\
+5-3\\
+I fucked up the unit conversion, should be answer$^{-5}$ \\
+In my case it's $6.55679*10^{-5}$\\
+$\frac{1}{2*k*ln(\frac{b}{a})}$ \\
+5-4\\
+B, just guess \\
+5-5\\
+$\lambda_{outer,new} = \lambda_{outer} * 2$
+
+\subsection{Section 9: Electric Current}
+\subsubsection{Pre-Lecture}
+
+\noindent 
+Electric Current  \\
+I $\equiv \frac{dq}{dt} $ \\
+Ohm's Law \\
+J = $\sigma E$ \\
+Ampere A = $\frac{Coulomb (C)}{second (S)} $\\
+Current Density J $\equiv \frac{I}{A} = n_e e v_{drift}$ \\
+$n_e = N_A \frac{\rho_{mass}}{M}$ \\
+J $\propto$ E \\
+$\sigma$ evidently means conductivity now \\
+$v_{drift} = \frac{\sigma}{n_ee}E$ \\
+Resistance \\
+R $\equiv \frac{1}{\sigma} \frac{L}{A}$ \\
+J $\equiv \sigma \frac{V}{L} $ \\
+R = $\rho \frac{L}{A}$ \\
+V = IR
+
+\vspace{2mm}
+
+\noindent
+$V_{AB} = V_1+V_2 $ \\
+$R_{quivalent} = R_1 + R_2$ \\
+Power = IV = $I^2$R
+
+\subsubsection{Homework}
+
+\noindent 
+1-1 \\
+$I_1 = \frac{V}{R_1 + R_3}$ \\
+1-2 \\
+$V_2 = V_1 = I_1 R_1 = V * \frac{R_1}{R_1 + R_3}$ \\
+1-3 \\
+$I_2 = \frac{V_2}{R_2}$ \\
+1-4 \\
+$R_x = R_2 \frac{R_3}{R_1}$ \\
+1-5 \\
+$V_1 = V_2$ \\
+1-6 \\
+B
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+$ R_{23} = R_{ab} = \frac{R_4 (R_2 + R_3)}{R_4 + R_2 + R_3}$ \\
+2-2 \\
+$R_{ac} = R_1 + R_{ab}$ \\
+2-3 \\
+$R_{equiv} = R_5 + R_{ac}$ \\
+$I_5 = \frac{V}{R_{equiv}}$ \\
+2-4 \\
+$V_{ab} = V (\frac{R_{ac} - R_5}{R_{ac} + R_5})$ \\
+$I_2 = \frac{V_{ab}}{R_2 + R_3}$ \\
+2-5 \\
+$I_1 = I_5$ \\
+2-6 \\
+$V_4 = V_{ab}$
+
+\subsection{Section 10: Kirchoff's Rules}
+\subsubsection{Pre-Lecture}
+\noindent
+Voltage Rule \\
+$\sum \Delta V_n = 0$
+
+\noindent
+Current Rule \\
+$\sum I_{in} = \sum I_{out}$ \\
+$V_c = \frac{Q}{C}$ \\
+$V_b = V_0 \frac{\frac{R}{r}}{1+ \frac{R}{r}}$
+
+\subsubsection{Homework}
+
+\noindent
+1-1: Current Div \\
+You only have to write $i_2$ in terms of $i_1$ \\
+In this case is it's $i_2 = \frac{1}{3}i_1$ \\
+Flipit requires it in the form (1/3)*i1
+
+\vspace{2mm}
+
+\noindent
+2-1: Multiloop \\
+$I_1 + I_2 + I_3 = 0$ \\
+$I_2 = I_2 + I_3$ \\ 
+$V_1 - I_1*R_1 - I_3*R_3 = 0$ \\
+$v_2 + I_3*R_3 - I_2*R_2 = 0$ \\
+If you're too lazy, just put .058...
+
+\vspace{2mm}
+
+
+\noindent
+Section 3 \\
+You first must solve this matrix (\href{https://matrixcalc.org/en/slu.html}{matrix solver}), it encodes the circuit using Kirchoff's Laws and allows us to solve for all of the currents simultaneously. \\
+\href{https://i.imgur.com/vFWyAQU.png}{analyzed circuit} 
+\[
+    \left[\begin{array}{ccc|c}
+    -R_1 & R_3+R_1 & 0 & -V_{s1} \\
+    R_2+R_6 & R_3 & 0 & V_{s2}-V_{s1} \\
+    0 & 0 & R_5+R_4 & V_{s2} \\
+    \end{array}\right]=
+    \begin{bmatrix}
+      I_2\\I_3\\I_4\\
+    \end{bmatrix}
+\]
+\noindent
+3-1 \\
+$V_4=I_4R_4$ \\
+\vspace{2mm}
+
+\noindent
+3-2 \\
+Solved via the matrix. \\
+\vspace{2mm}
+
+\noindent
+3-3 \\
+Solved via the matrix. \\
+\vspace{2mm}
+
+\noindent
+3-4 \\
+Kirchoff's node Law \\
+$I_1=I_2-I_3$ \\
+\vspace{2mm}
+
+\noindent
+3-5 \\
+$V_{ab}=I_2R_6$ \\
+\vspace{2mm}
+
+\noindent
+Same deal as problem 3. \\
+\href{https://i.imgur.com/MnsQ44k.png}{analyzed circuit}
+\[
+    \left[\begin{array}{cc|c}
+    R_1+R_2& -R_2&V\\
+    -R_2&R_2+R_3+R_4+R_5&0\\
+      \end{array}\right]=
+      \begin{bmatrix}
+        I_1\\I_3
+      \end{bmatrix}
+\]
+\noindent
+4-1 \\
+Solved via the matrix. \\
+$I_1\times 10^{3}$ (milliampere conversion) \\
+\vspace{2mm}
+
+\noindent
+4-2 \\
+r = $\frac{V - V_b}{I_1}$
+\vspace{2mm}
+
+\noindent
+4-3 \\
+Solved via the matrix. \\
+$I_3\times 10^{3}$ (milliampere conversion) \\
+\vspace{2mm}
+
+\noindent
+4-4 \\
+$P_2=(I_1-I_3)^2R_2$ \\
+\vspace{2mm}
+
+\noindent
+4-5 \\
+$V_2=(I_1-I_3)R_2$ 
+
+\subsection{Section 11: RC Circuits}
+\noindent
+BEGIN TEST 2!!
+\subsubsection{Pre-Lecture}
+
+\noindent
+If $t = 0$ \\
+$V_C$(0) = 0 \\
+$I(0) = \frac{V}{R}$
+
+\vspace{2mm}
+
+\noindent
+As t increases \\
+q, $V_C$ increases \\
+I, $V_R$ decreases
+
+\vspace{2mm}
+
+\noindent
+As t $\to \infty$ \\
+q $\to CV_b$ \\
+I $\to 0$
+
+\vspace{2mm}
+
+\noindent
+Question 1 \\
+Charge flows into the top of the capacitor and out of the bottom of the capacitor \\
+but no charge actually crosses the gap between the plates
+
+\vspace{2mm}
+
+\noindent
+Kirchoff's Voltage Rule \\
+IR + $\frac{q}{C} - V_b = 0$ \\
+R$\frac{dq}{dt} + \frac{1}{C}q - V_b = 0$ \\
+q(t) = C$V_b(1-e^{\frac{-t}{RC}})$ \\
+I(t) = $\frac{V_b}{R} e^{\frac{-t}{RC}}$ \\
+Boundary Conditions \\
+q(0) = 0 \\
+I(0) = $\frac{V_b}{R}$ \\
+q$(\infty) = CV_b$ \\
+I$(\infty) = 0$
+
+\vspace{2mm}
+
+\noindent
+Discharging a Capacitor \\
+t = 0 \\
+$V_C(0) = \frac{q_0}{C}$ \\
+q(t) = $q_0 e^{\frac{-t}{RC}}$
+Boundary Conditions \\
+q(0) = $q_0$ \\
+q$(\infty) = 0$ \\
+I(t) = -$\frac{q_0}{RC}e^{\frac{-t}{RC}}$
+Boundary Conditions \\
+$\vert I(0) \vert = \frac{q_0}{RC}$ \\
+I$(\infty) = 0$
+
+\vspace{2mm}
+
+\noindent
+Time Constant \\
+$\tau = RC$ \\
+$I(\tau) = I_0e^{-1} \approx I_0(0.37)$
+
+\vspace{2mm}
+
+\noindent
+Question 2 \\
+t=2, V = $\frac{V}{2}$ \\
+t=6, V = $\frac{V}{8}$
+
+\vspace{2mm}
+
+\noindent
+Power in an RC Circuit \\
+Fuck this section for making me type this much... \\
+$P_{Battery}(t) = V_b I_0 e^{\frac{-t}{RC}}$ \\
+$P_R(t) = RI_0^2 e^{\frac{-2t}{RC}}$ \\
+$P_C(t) = (\frac{q_0}{C}(1 - e^{\frac{-t}{RC}}))(I_0 e^{\frac{-t}{RC}})$
+
+\subsubsection{Homework}
+
+\noindent
+Section 1  \\
+Convert $\mu$C to C! \\
+$Q_{2final} = \frac{\frac{R_2 V}{R_1 + R_2}}{\frac{1}{C_1} + \frac{1}{C_2}}$ \\
+If your come down with a case of fuckit, Interactive example = .000213
+
+\vspace{2mm}
+
+\noindent
+Section 2 \\
+2-1 \\
+$I_1(0) = \frac{V}{R_1 + R_4}$ \\
+2-2 \\
+$I_1(\infty) = \frac{V}{R_1 + R_2 + R_3 + R_4}$ \\
+2-3 \\
+$I = \frac{V}{R_1 + R_2 + R_3 + R_4}$ \\
+$V = I*R_{23}$ \\
+$Q = VC$ \\
+2-4 \\
+$I_1(0) = \frac{V}{R_1+R_{523}}$ \\
+$R_{23} = R_2 + R_3 $ \\
+$R_{235} = \frac{1}{\frac{1}{R_{23} + R_5}}$ \\
+$I_1 = \frac{V}{R_1 + R_{523} + R_4}$ \\
+2-5 \\
+Same as 2-3
+
+\vspace{2mm}
+
+\noindent
+Section 3 \\
+3-1 \\
+$I_4(0) = \frac{V}{R_{equiv}}$ \\
+$R_{equiv} = R_1 + R_4 + \frac{R_2 R_3}{R_2 + R_3}$ \\
+3-2 \\
+$Q(\infty) = I(\infty) R_3 C$ \\
+$Q(\infty) = CV \frac{R_3}{R_1 + R_3 + R_4}$ \\
+3-3 \\
+$\tau = (R_2 + R_3) C$ \\
+$t_{open}$ is provided \\
+$Q(t_{open}) = Q(\infty) e^{\frac{-t_{open}}{\tau}}$ \\
+3-4 \\
+$I_{c,max}(closed) = \frac{V - I_4(0) (R_1 + R_4)}{R_2}$ \\
+3-5 \\
+$I_{c,max}(open) = \frac{Q(\infty)}{(R_2 + R_3) C}$
+
+\noindent
+
+\section{Magnetism}
+\subsection{Section 12: Magentism}
+\subsubsection{Pre-lecture}
+\noindent
+Lorentz Force \\
+$\vec{F}=q \vec{E} + q \vec{v} * \vec{B} $ \\
+Fucking magnets man! How do they work? 
+
+\noindent
+Cross Product \\
+$\vec{F} = q \vec{v} * \vec{B}$ \\
+Force perpendicular to Current and magnetic field direction\\
+$\vec{F} \bot \vec{I}$ \\
+$\vec{F} \bot \vec{B}$
+
+\noindent 
+Cross Product \\
+$\vert \vec{A} * \vec{B} \vert = AB sin \theta$
+
+\noindent
+$\vec{F}_{Electric} = -\vec{F}_{Magnetic}$ \\
+$q\vec{E} = -q\vec{v} * \vec{B}$ \\
+$F_B = qvB$ \\
+$F_e = qE$ \\
+$v = \frac{E}{B}$ when $\vec{F}_E = -\vec{F}_B$ \\
+$a_c = \frac{v^2}{R}$ \\
+R = $\frac{mv}{qB}$
+
+\subsubsection{Homework}
+\noindent
+1-1 \\
+$r = \frac{mv}{qB}$ \\ 
+$t = \frac{\pi r}{v}$ \\
+It's an Interactive example, answer = 2.73*$10^-8$ s
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+$\text{path} = \frac{1}{2}\pi d $ \\
+$v =  \frac{\text{path}}{t} $ \\
+Remember to convert $\mu$s to s \\
+t*$10^-6$
+
+\vspace{2mm}
+
+\noindent
+2-2 \\
+$F =\frac{mv^2}{r} $ \\
+$\theta  = \pi\left( \frac{t_{1}}{t}+1 \right) $ \\
+$F_x =F \sin(\theta)$ 
+
+\vspace{2mm}
+
+\noindent
+2-3 \\
+$F =\frac{mv^2}{r}$\\
+$\theta  = \pi\left( \frac{t_{1}}{t}+1 \right) $ \\
+$F_y =F \cos(\theta)$ 
+
+\vspace{2mm}
+
+\noindent
+2-4 \\
+Sign must be ascertained from the cross product of the direction of the $\vec{B}$ and $\vec{v}$. \\
+$q = \frac{F}{vB}$ 
+
+\vspace{2mm}
+
+\noindent 
+2-5 \\
+A
+
+\vspace{2mm}
+
+\noindent
+3-1 \\
+$v = \sqrt{v_x^2 + v_y^2}$
+
+
+\vspace{2mm}
+\subsection{Section 13: Forces and Torques on Currents}
+\subsubsection{Pre-lecture}
+
+\noindent
+Net force acting on current \\
+$\vec{F} = \sum^{}_{i} \vec{F}_i$ \\
+$\vec{F} = q*\sum^{}_{i} \vec{v}_i * \vec{B}$ \\
+$\vec{F} = q(N\vec{v}_{avg}) * \vec{B}$ \\
+N = number of charge carriers n*AL \\
+I = nAqv$_{avg}$ \\
+$\vec{F} = qnAL\vec{v}_{avg}*\vec{B}$ \\
+Force on Current-Carrying Wire \\
+$\vec{F} = I\vec{L}*\vec{B}$
+
+\vspace{2mm}
+
+\noindent
+$\vec{F}_{wire} = I\vec{L}*\vec{B}$ \\
+Force on a closed loop is 0 \\
+$\vec{F}_{Loop} = I(0)*\vec{B} = 0$ \\
+$\vec{F}_{Closed Loop} = 0$
+
+\vspace{2mm}
+
+\noindent
+Torque stuff \\
+$\vec{\tau} = \vec{r} * \vec{F}$ \\
+Magnitude \\
+$\tau = rF sin(\theta)$ \\
+$\tau_{total} = \frac{h}{2}(2IwB)sin(\theta)$ \\
+$\tau_{loop} = IwhBsin(\theta)$ \\
+Generalized form \\
+$\tau_{loop} = IAB sin \theta$
+
+\vspace{2mm}
+
+\noindent
+Magnetic Dipole Moment \\
+$\vec{\mu} = I\vec{A}$ \\
+If there are many turns, like a coil
+$\vec{\mu} = NI\vec{A}$ \\
+Torque on a loop \\
+$\vec{\tau} = \vec{\mu}*\vec{B}$ \\
+W = $\int_{\theta_1}^{\theta_2}(-\mu B sin \theta) d\theta$ \\
+$\Delta U = \int_{\theta_1}^{\theta_2} \mu B sin \theta d \theta$ \\
+$U(\theta) = - \vec{\mu} * \vec{B}$
+
+
+\subsubsection{Homework}
+
+\noindent
+1-1, IE with consistent answer \\
+$\tau = p_B * B * sin(\theta)$ \\
+$p_B = I * (\frac{\sqrt(3)}{4})d^2$ \\
+W = $-p_B B (cos\theta_2^0 - cos\theta_1)$ \\
+$\theta_2 = 180$ \\
+$\theta_1 = 0$ \\
+W = $-0.25 * \frac{\sqrt(3)}{4}(0.008)^2 * 1.3 (-1-1)$ \\
+W = $-1.8*10^-3$ J
+
+
+\vspace{2mm}
+
+\noindent
+2-1, IE with consistent answer \\
+$\frac{2 I B d N}{g}$ \\
+g = 9.82 \\
+convert d from cm to m \\
+answer $\approx$ 0.74786
+
+\vspace{2mm}
+
+\noindent
+3-1 \\
+$\mu = IA = IWH $ \\
+$\mu_x = -\mu sin \theta = -IWH sin \theta$ \\
+3-2 \\
+$\mu_y = \mu cos \theta = IWH cos \theta$ \\
+3-3 \\
+$\vec{\tau} = \vec{\mu} x \vec{B}$ \\
+$\tau_z = -\mu B sin \theta = -IWHB sin \theta = \mu_x B$ \\
+3-4 \\
+$F_{bc} = IHB $ \\
+$\tau = IWHB sin \theta $ \\
+$\tau = WF sin \theta $ \\
+F = IHB \\
+3-5 \\
+C, throw a dart...
+
+\vspace{2mm}
+
+\noindent
+4-1 \\
+$F_{ac} = IL_{ac}B = IB \sqrt{L_{ab}^2 + L_{bc}^2}$ \\
+$F_{ac,x} = -IBL_{bc}$ \\
+Convert L to m \\
+Convert I to A (I*10$^{-3}$) \\
+4-2 \\
+$F_{ac,y} = F_{ac}cos \theta = IBL_{ab}$\\
+4-3 \\
+$\Delta U_{12} = I L_{ab} L_{bc} B$ \\
+4-4 \\
+A \\
+4-5 \\
+Same as 4-3
+
+\subsection{Section 14: Biot-Savart Law}
+\subsubsection{Pre-lecture}
+\noindent
+Biot-Savart Law \\
+$d\vec{B} = \frac{\mu_{0}I}{4 \pi} \frac{d\vec{s}*\hat{r}}{r^2}$ \\
+B = $\frac{\mu_0 I}{2 \pi R}$ \\
+$\vec{F}_1 = -\vec{F}_2$  \\
+$F_2 = F_1 = \frac{\mu_0}{2 \pi d}I_1 I_2 L$ \\
+$B_{center} = \frac{\mu_0 I}{2R}$ \\
+$B = \frac{\mu_0 I}{2} \frac{R^2}{(R^2+z^2)^{\frac{3}{2}}}$
+
+\subsubsection{Homework}
+\noindent
+Preamble \\
+My work assigns $x_i$ values based on order of appearance \\
+The first x,y coordinates are $x_1,y_1$ etc. \\
+Convert distances to m, and when d is referred to it's $\vert x_1 \vert + x_2 $ \\
+It too is in meters. \\
+The constant $\mu_0 = 1.25663706 * 10^{-6}$ m kg $s^{-2} A^{-2}$ \\
+I don't know where it's from, but every example I found used it. \\
+1-1 \\
+$B_x(0,0) = \frac{\mu I_3}{2 \pi y_3}$ \\
+1-2 \\
+$B_y(0,0) = \frac{-\mu}{\pi d}(I_1 + I_2)$ \\
+1-3 \\
+$B_y(1) = \frac{- \mu I_1}{2 \pi d}(I_3 sin(30) + I_2$ \\
+DEGREES \\
+1-4 \\
+$F_y(1) = \frac{- \mu I_1 I_3}{2 \pi d}cos(30)$ \\
+1-5 \\
+$F_x(2) = \frac{\mu I_2}{2 \pi d}(I_1 - I_3 sin(30))$ \\
+1-6 \\
+C
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+F = $IL_xB$ \\
+$F_{ad,x} = I_2 H \frac{\mu I_1}{2 \pi L}$ \\
+2-2 \\
+$F_{bc,x} = -I_2 H \frac{\mu I_1}{2 \pi (L+W)}$ \\
+2-3 \\
+$F_{net,y} = 0$ \\
+2-4 \\
+B \\
+2-5 \\
+$I_3 = 2I_1 \frac{2L+W}{L+W}$
+
+\subsection{Section 15: Ampere's Law}
+\subsubsection{Pre-lecture}
+\noindent
+Ampere's Law \\
+$\oint \vec{B} * d \vec{l} = \mu_0 I_{enclosed}$ \\
+= $\frac{\mu_0 I}{2 \pi R}(2 \pi R)$ \\
+= $\mu_0 I$
+
+\vspace{2mm}
+
+\noindent
+Magnetic Field instide of a wire\\
+Ampere's Law, cylindrical case \\
+B(2 $\pi$ R) = $\mu_0$ I \\
+B(2 $\pi$ R) = $\mu_0$ I * $\frac{\pi r^2}{\pi a^2}$ \\
+B = $\frac{\mu_0 I}{2 \pi a^2} r$ for r $<$ a \\
+B = $\frac{\mu_0 I}{2 \pi r}$ for r $>$ a
+
+\vspace{2mm}
+
+\noindent
+Infinite sheets of charge \\
+y components cancel, x components add \\
+$\oint \vec{B}*d\vec{l} = 2BL$ \\
+$I_{enclosed} = (number of wires) * I$ = nLI \\
+B = $\frac{1}{2} \mu_0 n I$
+
+\subsubsection{Homework}
+\noindent
+Interactive Example \\
+Assume B(r) \\
+Remember that $\mu_0 = 1.25663706 * 10^{-6}$ \\
+B = $\mu_0 I_{enclosed}$ \\
+B = $\mu_0 (I_1 - I_2 *\frac{\pi (r^2 - b^2)}{\pi (c^2 - b^2)})$ \\
+Factor $\pi$ out \\
+B = $4.8x10^{-7}$ T \\
+$B_x = -B sin 30 = -2.4x10^{-7} $ T
+
+\vspace{2mm}
+
+\noindent
+Section 1 \\
+Found a better definition of $\mu_0$ as $4\pi * 10^{-7}$ \\
+Mind your directions, and remember the right hand rule is your friend \\
+I'll include what directions I had since it's probably the same for you \\
+2-1 \\
+R hand rule, B is only in y direction \\
+$B_y = \vert B \vert$ \\
+$B = \frac{\mu_0 (I_1 + I_2)}{2 \pi d}$ \\
+2-2 \\
+Section R - S = 0, $\vec{B} * d \vec{\ell} = 0$ \\
+Section P - R is $\frac{1}{8}$ of the loop so $\frac{1}{8} \int \vec{B} *d \vec{\ell} = \frac{1}{8} \mu_0 I$ \\
+I think it's the same for all, but mine is \\
+$\frac{1}{8}(4 * \pi*10^{-7}) * (I_1-I_2) = 3.30*10^{-7}$ Tm\\
+2-3 \\
+$-B_T (2 \pi r) = \mu_0 I_{enc} + I_1$ \\
+Negative due to right hand rule \\
+I don't know why the two I values get added. \\
+My initial attempt didn't work without it, and I found \\
+an example that used it that worked. \\
+$I_{enc} = I_2 \frac{r^2 - a^2}{b^2 - a^2}$ \\
+$B_T = \frac{-\mu_0 (I_1 + I_{enc})}{2 \pi r}$ \\
+2-4 \\
+Negative of 2-2, same end points \\
+2-5 \\
+C
+
+\vspace{2mm}
+
+\noindent
+Section 2 \\
+3-1 \\
+Both fields are y direction only, so $B_x$ = 0 \\
+3-2 \\
+Convert n to wires per meter, mine went from 18 to 1800. \\
+B(2L) = $\mu_0 n L I$, no x field so B becomes \\
+B = $\frac{1}{2} \mu (n I_1 + n I_2) $ \\
+3-3 \\
+$B_r = \frac{1}{2} \mu_0 n (I_1 - I_2)$ \\
+3-4 \\
+$I_{enc} = n h I_1$ \\
+B = $\mu_0 I_{enc}$ \\
+3-5 \\
+Positive answer from 3-3 \\
+My 3-3 was -0.001357, so my 3-5 is 0.001357 \\
+3-6 \\
+B*h = (answer from 3-2)*(h from 3-4) 
+
+\subsection{Section 16: Motional EMF}
+\subsubsection{Pre-lecture}
+
+\noindent 
+Electrodynamics \\
+$\vec{E}(\vec{r}) \to \vec{E}(\vec{r},t)$ \\
+$\vec{B}(\vec{r}) \to \vec{B}(\vec{r},t)$ 
+
+\vspace{2mm}
+
+\noindent
+Faraday's Law \\
+$\oint \vec{E} * d\vec{l} = -\frac{d}{dt} \int \vec{B}* d\vec{A}$ \\
+Maxwell's Displacement Current \\
+I = $\varepsilon_0 \frac{d}{dt} \int \vec{E}*d\vec{A}$ \\
+Ampere-Maxwell Law \\
+$\oint \vec{B}*d\vec{l} = \mu_0 I + \mu_0 \varepsilon_0 \frac{d}{dt} \int \vec{E} * d\vec{A}$
+
+\vspace{2mm}
+
+\noindent
+At Equilibrium \\
+E = vB \\
+Potential Difference \\
+$\varepsilon$ = vBL \\
+Current \\
+I = $\frac{vBL}{R}$ \\
+Power Dissipated \\
+$P_R = \frac{(vBL)^2}{R}$ \\
+Power from External Agent \\
+$P_{external} = \frac{v^2 B^2 L^2}{R}$
+
+\vspace{2mm}
+
+\noindent
+EMF \\
+$\varepsilon_{loop} = vL(B_{bottom} - B_{top})$ \\
+$B_{top} = \frac{\mu_0 I_0}{2 \pi (R+w)}$ \\
+$B_{bottom} = \frac{\mu_0 I_0}{2 \pi R}$
+
+\vspace{2mm}
+
+\noindent
+At Equilibrium \\
+E = v B cos $\theta$ \\
+Motional EMF \\
+$\varepsilon = \omega A B cos(\omega t)$ \\
+$\Phi = \int \vec{B} * d \vec{A}$
+
+\subsubsection{Homework}
+\noindent
+1-1: Interactive example \\
+At t = 0 \\
+R = 2W \\
+W = 3 cm = .03 m \\
+L = 8 cm = .08 m \\
+B = 1.6 T \\
+$L_B = 15 cm = .15 m$ \\
+constant v = 5 $\frac{cm}{s}$ = .05 $\frac{m}{s}$ \\
+Use $\varepsilon$ = vBL, or W in this case \\
+Then I = $\frac{\varepsilon}{R}$ \\
+Finally, use F = ILB = IWM \\
+$F(0.8) = 5.76*10^{-5}$ N 
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+$\varepsilon$ = vBL = vB($S_1$) \\
+Use vb($S_1$) for this part \\
+$I = \frac{V}{R} = \frac{\varepsilon}{R}$ \\
+Mind current direction, I got a sign error! \\
+2-2 \\
+$\varepsilon$ = vBL = vB($S_2$) \\
+$I = \frac{\varepsilon}{R}$ \\
+Mind your direction, this one was positive on mine \\
+2-3 \\
+Power = F*v = $\frac{V^2}{R}$ \\
+F = $\frac{v B^2 S_2^2}{R} $ \\
+2-4 \\
+Opposite sign answer from 2-1 \\
+My 2-1 was -0.00646, so my 2-4 is 0.00646 \\
+2-5 \\
+A
+
+\vspace{2mm}
+
+\noindent
+3-1 \\
+B = $\frac{\mu_0 I}{2 \pi d}$ \\
+$\varepsilon$ = v B W \\
+Mind your directions here! \\
+3-2 \\
+$d_1$ at $t_1$ = d - (v*$t_1$) \\
+$B(d_1) = \frac{\mu_0 I}{2 \pi d_1}$ \\
+$\varepsilon$ = v B($d_1$) W \\
+3-3 \\
+$d_2$ = L + d \\
+$B_1 = \frac{\mu_0 I}{2 \pi d}$ \\
+$B_2 = \frac{\mu_0 I}{2 \pi d_2}$ \\
+$\varepsilon = vW(B_1 - B_2)$ \\
+I = $\frac{\varepsilon}{R}$ \\
+3-4 \\
+C \\
+3-5 \\
+$d_2 = d + W$ \\
+Use the I from 3-3! \\
+For those who care, the final function is \\
+$I_2 = \frac{2 \pi (R I)}{v L \mu_0 (\frac{1}{d_1} - \frac{1}{d_2})}$ \\
+Working backwards \\
+I = $\frac{v L \mu_0}{2 \pi R} I_2 (\frac{1}{d_1} - \frac{1}{d_2})$ \\
+I = $\frac{v L}{R} B_1 - B_2$ \\
+$B_1 = \frac{\mu_0 I_2}{2 \pi d_1}$ \\
+$B_2 = \frac{\mu_0 I_2}{2 \pi d_2}$
+
+\subsection{Section 17: Faraday's Law}
+\subsubsection{Pre-lecture}
+\noindent
+Faraday's Law \\
+$\varepsilon_{induced} = - \frac{d \Phi_B}{dt} $
+
+\vspace{2mm}
+
+\noindent
+Motional EMF \\
+$\vert \varepsilon \vert = \frac{d \Phi_B}{dt}$ \\
+$\vert \varepsilon \vert = vl(B_{bottom} - B_{top})$ \\
+$\vert \varepsilon \vert = \frac{\Delta \Phi_B}{\Delta t}$ \\
+$\vert \varepsilon \vert = \omega B A cos(\omega t)$
+
+\vspace{2mm}
+
+\noindent
+$\Phi_B = B A sin(\omega t) $ \\
+$\varepsilon = -\omega N B A cos(\omega t) $
+
+
+\subsubsection{Homework}
+
+\noindent
+Section 1 \\
+1-1 \\
+$\Phi = \frac{\mu_0 I_1}{2 \pi} * ln(\frac{L + d}{d})$ \\
+1-2 \\
+$\varepsilon_1 = \frac{\Phi}{t_1}$ \\
+1-3 \\
+No change, it's constant \\
+Answer = 0 \\
+1-4 \\
+A, clockwise \\
+1-5 \\
+$\varepsilon_4 = \frac{\Phi}{\Delta t}$ \\
+$\Delta t = t_4 - t_3$
+
+\vspace{2mm}
+
+\noindent
+Section 2 \\
+2-1 \\
+$\omega = \frac{2 \pi}{t}$ \\
+2-2 \\
+$I_{max} = \frac{\omega B A}{R}$ \\
+$A = .5 * b * h$ \\
+2-3 \\
+$\theta = \omega t$ \\
+Convert to degrees! \\
+$\vert \Phi \vert = \vert B * A cos \theta \vert$ \\
+2-4 \\
+$I = \frac{\omega B A}{R} sin(\theta)$ \\
+2-5 \\
+B, $\phi_0 = 0$ and $I_0 = I_{max}$ \\
+2-6 \\
+C, $\phi_{max}$ remains the same and $I_{max}$ doubles
+
+
+\section{AC Circuits}
+
+\subsection{Section 18: Induction and RL Circuits}
+\subsubsection{Pre-Lecture}
+\noindent
+Self-Inductance \\
+$L \equiv \frac{\Phi_B}{I}$ \\
+SI Unit \\
+H (Henry) = $\frac{T-m^2}{A}$ \\
+Inductor Voltage \\
+$\varepsilon = -L \frac{dI}{dt}$ 
+
+\vspace{2mm}
+
+\noindent
+The Solenoid \\
+Magnetic field of a Solenoid \\
+$B = \mu_0 n I$ \\
+Magnetic flux of a Solenoid \\
+$\Phi_B = \mu_0 n^2 z \pi r^2 I$\\
+Self-Inductance of a Solenoid \\
+$L = \mu_0 n^2 z \pi r^2 $ \\
+Where n is the wire density, z is the length, r is the radius and I is the current.
+
+\vspace{2mm}
+
+\noindent
+RL Circuit \\
+With battery \\
+Closing Switch, at t = 0 \\
+$V_R(0) = 0$ \\
+$V_L(0) = V_b$ \\
+$I_1(0) = 0 $ \\
+Switch is closed for a long time, t $\to \infty$ \\
+$V_R (\infty) = V_b $ \\
+$V_L (\infty) = 0 $ \\
+$I_1 (\infty) = \frac{V_b}{R} $
+Without battery \\
+Opening switch, t = 0 \\
+$V_R(0) = V_b $ \\
+$V_L(0) = -2V_b$ \\
+$I(0) = \frac{V_b}{R}$ \\
+Switch is closed, t $\to \infty$ \\
+$V_R (\infty) = 0$ \\
+$V_L (\infty) = 0$ \\
+$I(\infty) = 0 $
+
+\vspace{2mm}
+
+\noindent
+RL Circuit: Quantitve Description \\
+Kirchoff's Voltage Rule for RL circuits \\
+$L \frac{dI_1}{dt} + I_1 R - V_b = 0$ \\
+redefine $\tau = \frac{L}{R}$ \\
+Where L is the length of the inductor and R is the resistance of the resistor \\
+$I_1(t) = \frac{V_b}{R}(1-e^{\frac{-R_t}{L}})$ \\
+Yes that's t not $\tau$ \\
+$V_L = V_b e^{\frac{-R_t}{L}} $
+
+\vspace{2mm}
+
+\noindent
+Energy in an inductor \\
+Inductor energy \\
+$U_L = \frac{1}{2} L I^2 $ \\
+Capacitor energy \\
+$U_C = \frac{1}{2} \frac{Q^2}{C}$
+Magnetic Energy Density \\
+$u_B = \frac{B^2}{2 \mu_0}$
+
+\subsubsection{Homework}
+\noindent 
+Interactive Example \\
+$4.88*10^-6$
+
+\vspace{2mm}
+
+noindent
+1-1 \\
+$I = \frac{V}{\sum R}$ \\
+1-2 \\
+$I = \frac{V}{R_1+R_4}$ \\
+1-3 \\
+$ V_L = V_{R23} = I * (R_2 + R_3)$\\
+1-4 \\
+Yours might be different, but try $\frac{V}{R_2+R_4}$, if nothing else try .139A since it might be the same \\
+1-5 \\
+Same as 1-1 
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+$I_1 = \frac{V}{R_1 + R_3 + R_4}$ \\
+2-2 \\
+Mind your rounding here! \\
+$R_{23} = (\frac{1}{R_2} + \frac{1}{R_3})^{-1}$ \\
+$R_{1234} = R_1 + R_{23} + R_4$ \\
+$I = \frac{V}{R_{1234}}$ \\
+2-3 \\
+$V_2 = V_{23} = I R_{23}$ \\
+$I_2 = \frac{V_2}{R_2}$ \\
+2-4 \\
+Mind your directions here! Mine was a negative. \\
+Also convert your L from mH to H, ex 369 to .369 \\
+R = $R_2 + R_3$ \\
+$I(t) = I_2 e ^{\frac{-t_{open}R}{L}}$ \\
+2-5 \\
+Use $I_1$ from 2-1! \\
+$V_L = V_{R3} = I_1 R_3$ \\
+2-6 \\
+$V_L = V_R = I_2 (R_2 + R_3)$
+
+
+\subsection{Section 19: LC and RLC Circuits}
+\subsubsection{Pre-Lecture}
+\noindent
+LC Circuits: A qualitative description \\
+Oscillator made by a capacitor and inductor \\
+LC Circuits: A quantitive Description \\
+Q(t) = $Q_{max} cos(\omega t + \phi)$ \\
+Defined by inital conditions \\
+$Q_{max} = CV$ \\
+$\phi$ also determined, explanation given doesn't fit all 
+
+\vspace{2mm}
+
+\noindent 
+LC Circuits: Part 3 \\
+$\omega = \frac{1}{\sqrt{LC}}$ \\
+LC Circuits and Energy \\
+I = $-\omega Q_{max} sin(\omega t + \phi)$ \\
+RLC Circuits \\
+Rate of Energy Loss \\
+P = $I^2 R$ \\
+$\beta = \frac{R}{2L} $ \\
+$\beta$ can also equal $\omega_0$ \\
+$\omega'^2 = \omega_0^2 - \beta^2$ \\
+$Q(t) = Ae^{-\beta t} cos(\omega' t + \phi) $
+
+\subsubsection{Homework}
+\noindent
+IE 1 \\
+UNITS UNITS UNITS MY DUDE!!! \\
+Convert uF to F (C)\\
+Convert mH to H (L)\\
+Convert mA to A (I)\\
+$Q_{max} = \sqrt{2 C L I^2}$ \\
+If you come down with Whogivesashit, answer is $1.54 * 10^{-5}$
+
+\vspace{2mm}
+
+\noindent
+IE 2 \\
+U = $\frac{1}{2}LI^2_L + \frac{1}{2}CV^2_C$ \\
+U = $\frac{1}{2}((.008)(.0293)^2+(250*10^{-6})(6.44^2))$ \\
+U = 0.005188
+
+
+\vspace{2mm}
+
+\noindent
+Mind your rounding and units here! \\
+Convert $\mu F$ to F \\
+Convert mA to A \\
+Convert mH to H \\
+Convert mS to S \\
+1-1 \\
+C = $(\frac{1}{C_1} + \frac{1}{C_2})^{-1}$ \\
+$\omega_0 = \frac{1}{\sqrt{LC}}$ \\
+1-2 \\
+Mind your rounding on this one, also whitespace \\
+$Q_{max} = \frac{I_L}{\omega_0}$ \\
+1-3 \\
+$V_{bc} = -L \omega_0 I_L sin(\omega t)$ \\
+1-4 \\
+$Q_{max} = \frac{I_L}{\omega_0}$ \\
+1-5 \\
+D, $Q_1 =0 and V_L = 0$
+
+\vspace{2mm}
+
+\noindent
+Convert MH to H \\
+Convert $\mu$F to F \\
+2-1 \\
+$I = \frac{V}{R_1}$ \\
+$U_1 = \frac{1}{2} L_1 I^2$ \\
+2-2 \\
+L = $L_1 + L_2$ \\
+$\omega_0 = \frac{1}{\sqrt{L C}}$ \\
+2-3 \\
+$Q_{max} = \frac{I}{\omega_0}$ \\
+2-4 \\
+$-Q_{max} \sin(\omega t)$ \\
+2-5 \\
+Convert answer to mS from S\\
+$t_2 = \frac{pi}{2 \omega_0}$ \\
+2-6 \\
+$U_{total} = \frac{1}{2} L I^2$
+
+\subsection{Section 20: AC Circuits}
+\subsubsection{Pre-Lecture}
+\noindent
+Induced Voltage \\
+$\varepsilon(t) = \varepsilon_m sin(\omega t)$ \\
+I = $I_m sin (\omega t - \phi)$ \\
+KVR = $V_c - \varepsilon$ = 0 \\
+$V_R = I_R R = \varepsilon_m sin (\omega t) $ \\
+$I_R = \frac{\varepsilon_m}{R} sin(\omega t)$ \\
+Question 1, The voltage is positive and decreasing \\
+$\frac{Q}{C} = \varepsilon_m sin(\omega t) $ \\
+Q = $C \varepsilon_m sin (\omega t)$ \\
+$I_C = \frac{dQ}{dt} = \omega C \varepsilon_m cos (\omega t)$ \\
+Reactance of the Capacitor \\
+$X_C \equiv \frac{1}{\omega C}$ \\
+$I_L = -\frac{\varepsilon_m}{X_L} cos (\omega t)$ \\
+Reactance of the inductor \\
+$X_L \equiv \omega L$ \
+tan $\phi = \frac{X_L - X_c}{R}$ \\
+$I_m = \frac{\varepsilon_m}{\sqrt{R^2 + (X_L - X_c)^2}}$ 
+
+\subsubsection{Lecture notes}
+\noindent
+$\omega = \frac{2 \pi}{T}$ \\
+Amplitude = $ \frac{V_{max}}{R}$ \\
+$\varepsilon(t) = V_{max} sin(\omega t)$  \\
+$V_{max} = I_{max} * \frac{1}{\omega C} $ \\
+$V_C = I_C X_C$ \\
+$X_C = \frac{1}{\omega C} $
+Inductor \\
+KVR: $V_L - \varepsilon = 0$ \\
+$\int L = \int \varepsilon(t) = \int V_{max} sin(\omega t) dt$ \\
+$V_L = I_L X_L = I_L \omega L$ \\
+Voltage lead \\
+L, $V_L$ leads I \\
+Voltage Lags \\
+C, $V_C$ lags I \\
+$V_L + V_R = \varepsilon$ \\
+$V_L = I \omega L + IR = V_{max} sin(\omega t)$ \\
+Currents $I_L$ and $I_R$ are the same
+
+\subsubsection{Homework}
+
+\noindent
+IE1 \\
+$\phi = \tan^{-1} (\frac{X_L - X_C }{\frac{\varepsilon^2}{I^2} - (X_L -X_C)})$ \\
+$\phi = 23.30575$
+
+\vspace{2mm}
+
+\noindent
+Convert C from $\mu$F to F \\
+Convert L from mH to H \\
+1-1 \\
+Z = $\sqrt{R^2 + (X_L - X_C)^2}$ \\
+Z = $\sqrt{R^2 + (\omega L - \frac{1}{\omega C})^2}$ \\
+1-2 \\
+$I_{max} = \frac{\varepsilon_m}{Z}$ \\
+1-3 \\
+$\phi = \tan^{-1}(\frac{\omega L - \frac{1}{\omega C}}{R})$ \\
+MIND YOUR SIGNS!!! \\
+1-4 \\
+Convert $\omega$ to degrees per second \\
+$\frac{90^o + \phi}{\omega} = t$ \\
+1-5 \\
+B \\
+1-6 \\
+$V_{C,max} = \frac{I_{max}}{\omega C}$ \\
+$V_C(t) = V_{C,max} \cos(\phi)$
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+In these examples, use $\phi$ instead of the $\varphi$ \\
+Convert L from mH to H \\
+Convert C from $\mu$F to F \\
+$t = \frac{\phi}{\omega}$ \\
+2-2 \\
+Z = $\frac{R}{\vert \cos{\phi} \vert}$ \\
+2-3 \\
+L = $\frac{R \tan(\phi) + \frac{1}{\omega C}}{\omega}$ \\
+Convert resulting value to mH \\
+2-4 \\
+$I_{L,max} = \frac{\varepsilon_m}{Z}$ \\
+$V_{L,max} = I_{L,max}(\omega L) = \frac{\varepsilon_m \omega L}{Z}$ \\
+2-5 \\
+$V_{L,max} = V_{L,max} cos(\phi)$ \\
+2-6 \\
+A
+
+\subsection{Section 21: AC Circuits: Resonance and Power}
+
+\subsubsection{Pre-Lecture}
+\noindent
+Reactance \\
+Inductor:$X_L = \omega L$ \\
+Capacitor: $X_C = \frac{1}{\omega C}$ \\
+Maximum Voltages \\
+Inductor: $V_L = I_m X_L$ \\
+Capacitor: $V_C = I_m X_C$ \\
+Resistor: $V_R = I_m R$ \\
+Impedance \\
+Z = $\sqrt{R^2 + (X_L - X_C)^2}$ \\
+Phase \\
+tan $\phi = \frac{X_L - X_C}{R}$ \\
+Maximum Current \\
+$I_m = \frac{\varepsilon_m}{Z}$ \\
+$I_m = \frac{\varepsilon_m}{\sqrt{R^2 + (\omega L - \frac{1}{\omega C})^2}}$\\
+$\omega_0^2 = \frac{1}{L C}$
+Question 1 \\
+C, it will decrease 
+
+\vspace{2mm}
+
+\noindent
+$I_m = \frac{\varepsilon_m}{R} \cos(\phi)$ \\
+$\cos(\phi) = \frac{R}{\sqrt{R^2 + (X_L - X_C)^2}}$ \\
+x $\equiv \frac{\omega}{\omega_0}$ \\
+$Q^2 \equiv \frac{L}{R^2 C}$ \\
+$I_m = \frac{\varepsilon_m}{R} \frac{1}{\sqrt{1 + Q^2 \frac{(x^2 - 1)^2}{x^2}}} $ \\
+btw fuck these symbols... \\
+$\langle P_{Generator} \rangle = \langle P_{Resistor} \rangle = \frac{1}{2} I_m \varepsilon_m \cos \phi$ \\
+Average Power per cycle \\
+$\langle P_{Generator} \rangle = \varepsilon_{rms} I_{rms} \cos \phi = \frac{\varepsilon_{rms}^2}{R} \cos^2 \phi $ \\
+$\langle P_{Generator} \rangle = \frac{\varepsilon_{rms^2}}{R} \frac{x^2}{x^2 + Q^2(x^2 - 1)^2}$ \\
+$\varepsilon_{rms} = \frac{\varepsilon_m}{\sqrt{2}}$ \\
+$I_{rms} = \frac{I_m}{\sqrt{2}}$ \\
+Quality Factor \\
+Q $\equiv 2\pi [\,\frac{U_{max}}{\Delta U} ]\,_{cycle}$ \\
+$Q^2 = \frac{L}{R^2 C}$ \\
+$V_{L_{max}} \vert_{\omega = \omega_0} = V_{C_{max}} \vert_{\omega = \omega_0} = Q \varepsilon_m$ \\
+Question 2 \\
+A, 0 Volts
+
+\vspace{2mm}
+
+\noindent
+Ideal Transformer \\
+$V_S = \frac{N_S}{N_P} V_P$ \\
+$I_P = \frac{N_S}{N_P}I_S$
+
+\subsubsection{Lecture notes}
+\noindent
+Cannot operate at different frequencies at once \\
+90 degrees for all lines is always the same and do not change  relative \\
+$I(t) = I_m \sin(\omega t - \phi)$ \\
+Z = $\frac{\varepsilon_{max}}{I_{max}}$ \\
+Always out of phase by 90 degrees \\
+Current remainds constant \\
+In phase with voltage drop of the resistor \\
+$I_{\varepsilon}(t) = I_R(t) = I_L(t) = I_C(t)$ \\
+All out of phase with the current 
+
+\vspace{2mm}
+
+\noindent
+Slides, "Ohms" Law for each element \\
+ONLY for maximum values \\
+RMS = Root mean square \\
+$I_{peak} = I_{max}\sqrt{2} $ \\
+$\langle I^2 R \rangle = I_{max}^2 R$ \\
+There will be a Phasor question in the exam \\
+Redefinition of $\varepsilon$ = $I_m Z$
+Wanna deliver 1500 W, power. 100 Volts over transmission lines, resistance R = 5 ohms. \\
+How much power is lost in the lines? \\
+Power = 1500 W \\
+Calculating power lost in the lines \\
+Power dissapated = $P_R = IV = 20 * 100 V = 2000W$, first attempt not right \\
+I = $\frac{V}{R} = \frac{100V}{5 \Omega} = 20 A$ \\
+$P_R = IV = I(IR) = I^2R = 15^2A 5 \Omega = 1125W$ \\
+$I_{10kv} = \frac{1500}{10000} = 0.15A$ \\
+$(.15A)^2 * (5 \Omega) = 0$ \\
+High voltage low current prevents loss 
+
+\subsubsection{Homework}
+\noindent
+IE \\
+I'm not going to show the functions for this, since the functions aren't used later \\
+If you want the functions, let me know and I'll add them from now on! \\
+0.000839 
+
+\vspace{2mm}
+
+\noindent
+I use $\phi$ instead of $\varphi$ for consistency in notes. \\
+1-1 \\
+$I_m = \frac{2 P_{avg}}{\varepsilon_m cos \phi}$ \\
+1-2 \\
+R = $\frac{2 P_{avg}}{I_m^2}$ \\
+1-3 \\
+C = $(\omega^2 L - \omega R \tan(-\phi))^{-1}$ \\
+1-4 \\
+B \\
+1-5 \\
+$P_{avg} = \frac{1}{2} \frac{\varepsilon_m^2}{R}$
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+L = $\frac{1}{\omega^2 C}$ \\
+Answer in H, convert H $\to$ mH!!! \\
+2-2 \\
+$U_{max} = \frac{1}{2} L I_m^2$ \\
+Multiply answer by $10^{-3}$ to convert to Joules! \\
+My answer went from 49.46 $\to$ 0.0495 \\
+2-3 \\
+$\Delta U = \frac{\pi \varepsilon_m I_m}{\omega}$ \\
+2-4 \\
+Q = $\frac{U_{max}}{\Delta U} 2 \pi$ \\
+2-5 \\
+R = $\frac{\varepsilon_m}{I_m}$ \\
+2-6 \\
+B
+
+\section{Light and Optics}
+
+\subsection{Section 22: Displacement Current and Electromagnetic Waves}
+\subsubsection{Pre-Lecture Notes}
+\noindent
+Modified Ampere's Law \\
+$\oint \vec{B} * d \vec{l} = \mu_0 I + \mu_0 \varepsilon_0 \frac{d \phi_E}{dt}$ \\
+$Q = \varepsilon_0 \phi_E$ \\
+Displacement Current \\
+$I_D = \varepsilon_0\frac{d \phi_E}{dt}$ \\
+h(x,t) = $A \cos(kx - \omega t)$ \\
+Harmonic Plane Wave \\
+Amplitude A \\
+Wave number k = $\frac{2 \pi}{\lambda}$ \\
+Angular Frequency $\omega \frac{2 \pi}{T}$ \\
+Period T \\
+Frequency f = $\frac{1}{T}$ \\
+Velocity v = $\lambda f = \frac{\omega}{k}$
+
+\vspace{2mm}
+
+\noindent
+Wave Equation \\
+$\frac{\partial^2 E_x}{\partial z^2} = \mu_0 \varepsilon_0 \frac{\partial^2 E_x}{\partial t^2}$ \\
+Speed of Electromagnetic Wave \\
+v = $\frac{1}{\sqrt{\mu_0 \varepsilon_0}}$
+A harmonic solution \\
+$E_x = E_0 cos(k z - \omega t)$ \\
+$B_y = \frac{k}{\omega} E_0 cos (kz - \omega t)$ \\
+$B_y$ is in phase with $E_x$ \\
+$B_0 = \frac{E_0}{c}$
+
+\subsubsection{Homework}
+1-1 \\
+Convert $\lambda$ from nm $\to$ m \\
+k = $\frac{2 \pi}{\lambda}$ \\
+1-2 \\
+$Z_{max} = \frac{\pi}{2k}$ \\
+Convert answer from m $\to$ nm \\
+1-3 \\
+c is the speed of light \\
+c = $3*10^8 \frac{m}{s}$ \\
+$E_{max} = \sqrt{2} c B1$ \\
+1-4 \\
+Mind your directions here! Mine was negative! \\
+$E_y = c B_1$ \\
+1-5 \\
+B \\
+1-6 \\
+$t_{max} = \frac{\lambda}{4c}$ \\
+Make sure $\lambda$ is in m \\
+1-7 \\
+B \\
+END TEST 2!
+
+\subsection{Section 23: Properties of Electromagnetic Waves}
+\noindent
+BEGIN FINAL!!!
+\subsubsection{Pre-Lecture Notes}
+\noindent
+$E_x = E_0 \sin(kz-\omega t)$ \\
+$B_y = B_0 \sin(kz - \omega t)$ \\
+Velocity c = $\frac{\omega}{k} = \frac{1}{\sqrt{\mu_0 \varepsilon_0}} = \frac{E_0}{B_0}$ \\
+E-M Wave Speed c = $f \lambda$ \\
+Doppler Shift f' = f $\frac{1 \pm \beta}{1 \mp \beta}$ \\
+Energy Densities \\
+Electric Fields $u_E = \frac{1}{2} \varepsilon_0 E^2$ \\
+Magnetic Fields $u_B = \frac{1}{2} \frac{B^2}{\mu_0}$ \\ 
+E = cB \\
+u = $\varepsilon_0 E^2$ \\
+Average Energy Density \\
+$\langle u \rangle = \frac{1}{2}\varepsilon_0 E^2_0$
+Intensity \\
+$I \equiv \frac{\langle Power \rangle}{Area}$
+Poynting Vector \\
+$S = c \varepsilon_0 E^2$ \\
+Sunlight Electric Field Strength \\
+$E_{rms}^2 = \mu_0 c I$ \\
+I = 100 $\frac{mW}{cm^2}$ \\
+Impedance of Free Space $Z_0 \equiv \mu_0 C$ \\
+Energy = E = hf \\
+Momentum = p = $\frac{E}{c}$ = $\frac{h}{\lambda}$ 
+
+\subsubsection{Homework}
+\noindent
+IE \\
+$B_Z = -61.36*10^{-8}$
+
+\vspace{2mm}
+
+\noindent 
+c is the speed of light, $3*10^8$ \\
+1-1 \\
+f = $\frac{c}{\lambda}$ \\
+1-2 \\
+$\varepsilon_0 = 8.854E-12$ \\
+$I = \frac{1}{2} \varepsilon_0 c^3 (B_x^2+X_y^2)$ \\
+1-3 \\
+$\mu_0 = 4 \pi * 10^{-7}$
+$S_Z = -\frac{c}{\mu_0}(B_x^2 + B_y^2)$ \\
+1-4 \\
+$E_x = -cB_y$
+1-5 \\
+D
+
+\subsection{Section 24: Polarization}
+\subsubsection{Pre-Lecture Notes}
+$E_x = E_0 \cos \theta sin(kz - \omega t + \phi)$ \\
+$E_y = E_0 \sin \theta sin(kz - \omega t + \phi)$ \\
+Incident Light \\
+Unpolarized:  $I_{final} = \frac{1}{2}I_0 $ \\
+Law of Malus \\
+Polarized: $I_{final} = I_0 \cos^2 \theta$ \\
+$I_1 = \frac{1}{2}I_0$ \\
+$I_2 = I_1 \cos^2 30$ \\
+$I_3 = I_2 cos^2 60$ \\
+Linear Polarization \\
+Relative Phase $\phi \equiv \phi_x - \phi_y = 0$ \\
+Circular Polarization \\
+Realative Phase $\phi \equiv \phi_x - \phi_y = \pm \frac{\pi}{2}$ \\
++ is right rotation \\
+- is left rotation \\
+$\Delta \phi = \phi_y - \phi_x = \omega d (\frac{1}{v_{fast}} - \frac{1}{v_{slow}})$\\
+$\Delta \phi = \frac{\pi}{2}$\\
+Remember Snell's Law and the Law of Reflection!!! 
+
+\subsubsection{Homework}
+\noindent
+IE \\
+$75.78^o$
+
+\vspace{2mm}
+
+\noindent
+1-1 \\
+$I_1 = \frac{I_0}{2}$ \\
+$I_2 = I_1 \cos^2(\theta_1 - \theta_2)$ \\
+1-2 \\
+$I_{final} = I_2 \cos^2(\theta_3 - \theta_2)$ \\
+1-3 \\
+$I_{final,new} = \frac{1}{2} I_0 (\cos(\theta_1 - \theta_3) \cos(\theta_2 - \theta_3))^2$ \\
+1-4 \\
+B \\
+1-5 \\
+$I'_{final} = \frac{1}{2} I_0 (\cos(\theta_2 - \theta_3) \cos \theta 3)^2$
+
+\vspace{2mm}
+
+\noindent
+2-1 \\
+$I_{mid} = \frac{I_0}{2}$ \\
+2-2 \\
+$I_{final} = I_{mid} \cos^2 \theta_1$ \\
+2-3 \\
+$\frac{E_{y,final}}{E_0} = \sqrt{\frac{I_{final}}{I_0}} \sin \theta_1$ \\
+2-4 \\
+$I_{final,new} = I_0 \cos^2(90^o - \theta_1) \cos^2 \theta_1$ \\
+2-5 \\
+B \\
+2-6 \\
+C
+
+\subsection{Section 25: Reflection and Refraction}
+\subsubsection{Pre-Lecture}
+\noindent
+Law of Reflection \\
+$\theta_i = \theta_r$ \\
+$ct_{ab}=ct_{dc}$ \\
+$v = \frac{1}{\sqrt{\mu \varepsilon}}$ \\
+Index of refraction \\
+$n \equiv \frac{c}{v} = \frac{\sqrt{\mu \varepsilon}}{\sqrt{\mu_0 \varepsilon_0}}$ \\
+n $\approx \sqrt{\frac{\varepsilon}{\varepsilon_0}}$ \\
+Snell's Law \\
+$n_2 sin \theta_2 = n_1 sin \theta_1$ \\
+Glancing incidence \\
+$\theta$ ~ $90^o$ \\
+Normal incidence \\
+$\theta = 0^o$ \\
+R = $(\frac{n_2 - n_1}{n_2 + n-1})^2$ \\
+Critical Angle \\
+$\theta_c = \sin^{-1}(\frac{n_2}{n_1})$ \\
+Brewster's Angle \\
+$\tan \theta_1 = \frac{n_2}{n_1}$
+\subsubsection{Homework}
+\subsection{Section 26: Lenses}
+\subsubsection{Pre-Lecture}
+\noindent
+Converging lenses are convex \\
+Diverging lenses are concave \\
+Lense Equation \\
+$\frac{1}{s} + \frac{1}{s'} = \frac{1}{f}$ \\
+s' = $\frac{f s}{s-f}$ \\
+Magnification \\
+M $\equiv \frac{h'}{h} = -\frac{s'}{s}$\\
+M = $\frac{-f}{s-f}$ \\
+Lensmaker's Formula \\
+$\frac{1}{f} = (n-1)\frac{1}{R}$
+
+\subsubsection{Homework}
+\subsection{Section 27: Mirrors}
+\subsubsection{Pre-Lecture}
+\noindent
+The mirror equation \\
+$\frac{1}{s} = \frac{q}{s'} = \frac{1}{f}$\\
+Magnification \\
+M $\equiv \frac{h'}{h} = -\frac{s'}{s}$\\
+s' = $\frac{fs}{s-f} \lt 0$\\
+M = $-\frac{f}{s-f} \gt 0$ \\
+Plane Mirrors \\
+s' = -s \\
+h' = h \\
+M = 1 \\
+Small angle approximation \\
+f = $\frac{R}{2}$
+\subsubsection{Homework}
+\subsection{Section 28: Optical Instruments}
+\subsubsection{Pre-Lecture}
+\subsubsection{Homework}
+
+\section{The final review lecture}
+\noindent
+Extra credit for recitation tomorrow \\
+Sorry no pictures... \\
+What is he direction of the current induced around the wire loop at time t =5 sec? \\
+clockwise or counterclockwise? Clockwise \\
+Induced current must produce positive B field
+
+\vspace{2mm}
+
+\noindent
+Calculation problem \\
+Magnitude of the current induced around the wire loop at time t = 5 sec: \\
+1.3 mA, 2.0 mA, 9.0 mA, 12 mA, 18 mA \\
+$I_{ind}R = emf_{ind}$ \\
+$I_{ind} = \frac{emd_{inf}}{R} = \frac{1}{R} \frac{d\Phi_B}{dt} = \frac{1}{R} A \frac{dB}{dt}$ \\
+$I_{ind} = \frac{wh}{R}(\frac{-4T}{2s}) = \frac{1.5m*/06m}{150 \omega} * 2 \frac{T}{s} = -1.2*10^{-2} A$ \\
+Loop moving \\
+$Ii_{ind} = \frac{B}{R} \frac{d}{dt} A(t) = \frac{-Bhv}{R}$ \\
+A(t) = h w(t) = h ($\frac{1}{2}w - vt$) \\
+$\frac{dA}{dt}$ = hv 
+
+\vspace{2mm}
+
+\noindent
+More calculations \\
+$I_{ind} = \frac{1}{R} \frac{d}{dt} \phi_B = \frac{h}{R} ((mt+x)(-v)+(w-vt)m) = \frac{h}{R} ((-vm-vm)t-nv+wm)$ \\
+$\phi_B =\int \vec{B}*d\vec{A} = (mt+n)*h*(w-vt)  = h(mt+n)(w-vt)$ \\
+emf = $\frac{d\phi_B}{dt}$
+
+\vspace{2mm}
+Phasors \\
+$\beta + \frac{\pi}{2} = \alpha + \omega t_2 \to \alpha = \beta$
+
+\end{document}
