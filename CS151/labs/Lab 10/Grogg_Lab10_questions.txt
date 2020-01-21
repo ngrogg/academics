@@ -1,0 +1,10 @@
+1) When does the compiler actually generate the code for a function template?
+When the function is called (executed).
+
+2) What is the best method for writing a function template?
+Use as broad of an approach as possible, the more specific the algorithm is the more limited it is in it's application.
+The idea is to have a generic function that can be used for as many things in the program as 
+possible.
+
+3) What does the term algorithm abstraction mean?
+A generic way to express an algorithm while ignoring incidental details. 

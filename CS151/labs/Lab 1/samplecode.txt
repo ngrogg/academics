@@ -1,0 +1,101 @@
+
+--------------------- SAMPLE ---------------------
+
+#include "stdafx.h"
+#include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
+ 
+//declare function for calculate number of sequence of numbers
+unsigned int NumOfSquence(unsigned int n);
+ 
+int _tmain(int argc, _TCHAR* argv[])
+{
+	unsigned int i = 1,j = 1,temp = 0; 
+	cin>>i>>j;
+	//switch i and j,if(i > j)
+	if(i > j){
+	        temp = i;
+	        i = j;
+		j = temp;
+	}
+	unsigned int max = NumOfSquence(i);
+	for(unsigned int k = i + 1;k <= j; k++){
+		temp = NumOfSquence(k);
+		if(temp > max){
+			max = temp;
+		}
+	}
+	cout<<i<<" "<<j<<" "<<max<<endl;
+	return 0;
+}
+ 
+//the function of calculate number of sequence of numbers,whilch begins with n
+// 16 8 4 2 1
+unsigned int NumOfSquence(unsigned int n){
+	unsigned int num = 1;
+	while(n != 1){
+		if(n % 2 == 0){
+			n /=2;
+		}
+		else if(n % 2 == 1){
+			n = 3 * n + 1;
+		}
+		num++;
+	}
+	return num;
+}
+
+----------------------- SAMPLE ---------------------
+
+#include <iostream.h>
+ 
+#include<conio.h>
+ 
+int cycle( long int n)
+{
+      long int i = 1;
+ 
+    while(n != 1) {
+        if(n % 2 == 0)  {
+            n=n/2;
+        } else {
+            n= (3*n)+1;
+ 
+        }
+        i++;
+    }
+    return i;
+}
+ 
+int main()
+{
+    int a, b, low, high,ch;
+     cout<<"enter the series of numbers";
+ 
+    while(cin>>a>>b) {
+ 
+        if(a < b) {
+            low = a;
+            high = b;
+        } else {
+            low = b;
+            high = a;
+        }
+ 
+        int max = cycle(low);
+ 
+        for(int i = low + 1; i <= high; i++) {
+            int l = cycle(i);
+            if(l > max) {
+                max = l;
+            }
+        }
+ 
+        cout<<a<<" "<<b<<" "<<max<<"\n";
+               }
+     getch();
+    return 0;
+ 
+}

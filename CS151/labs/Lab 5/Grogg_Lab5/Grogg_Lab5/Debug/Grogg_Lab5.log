@@ -1,0 +1,26 @@
+﻿  11-12.cpp
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(32): error C2061: syntax error: identifier 'istream'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(38): error C2143: syntax error: missing ';' before '&'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(38): error C2433: 'ostream': 'friend' not permitted on data declarations
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(38): error C2238: unexpected token(s) preceding ';'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(33): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(39): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(55): error C2511: 'void StringVar::input_line(std::istream &)': overloaded member function not found in 'StringVar'
+  \\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(8): note: see declaration of 'StringVar'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(56): error C2597: illegal reference to non-static member 'StringVar::value'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(56): error C2597: illegal reference to non-static member 'StringVar::max_length'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(56): error C3867: 'StringVar::max_length': non-standard syntax; use '&' to create a pointer to member
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(60): error C2872: 'ostream': ambiguous symbol
+  \\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(38): note: could be 'int ostream'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.10.25017\include\iosfwd(625): note: or       'std::ostream'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(60): error C2143: syntax error: missing ';' before '&'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(60): error C2086: 'int ostream': redefinition
+  \\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\header.h(38): note: see declaration of 'ostream'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(60): error C2065: 'outs': undeclared identifier
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(60): error C2059: syntax error: 'const'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(61): error C2143: syntax error: missing ';' before '{'
+\\cse-server1\ldfiles\cse151bm\cs151d1\documents\visual studio 2017\projects\grogg_lab5\grogg_lab5\11-12.cpp(61): error C2447: '{': missing function header (old-style formal list?)
