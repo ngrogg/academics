@@ -1,3 +1,6 @@
+#ifndef LINKEDLIST_H
+#define LINKEDLIST_H
+
 #include <cstddef>
 #include <cstdlib>
 #include <iostream>
@@ -5,9 +8,7 @@
 #include <string>
 
 using namespace std;
-/* TO-DO: 
- Function overrides
- */
+
 template<typename T>
 class LinkedList {
 protected:
@@ -88,10 +89,9 @@ void LinkedList<T>::runProgram() {
 			cin >> listInput;
 			append(listInput, name);
 		}
-		// Made index 1, because average user won't be counting from 0
 		else if (input == 's') {
 			int targetIndex;
-			cout << "Target index (initial index 1): ";
+			cout << "Target index (initial index 0): ";
 			cin >> targetIndex;
 			cout << "Name of node to create: ";
 			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -102,13 +102,13 @@ void LinkedList<T>::runProgram() {
 		}
 		else if (input == 'd') {
 			int targetIndex;
-			cout << "Index to remove (initial index 1): ";
+			cout << "Index to remove (initial index 0): ";
 			cin >> targetIndex;
 			remove(targetIndex);
 		}
 		else if (input == 'f') {
 			int targetIndex;
-			cout << "Index to search (initial index 1): ";
+			cout << "Index to search (initial index 0): ";
 			cin >> targetIndex;
 			search(targetIndex);
 		}
@@ -152,10 +152,10 @@ template<typename T>
 void LinkedList<T>::appendSpecific(T val, int target, string n) {
 	ListNode *NodePtr = head;
 	ListNode *previousNodePtr = NodePtr;
-	int index = 1;
+	int index = 0;
 
 	// If head is target value
-	if (target == 1) {
+	if (target == 0) {
 		// Create new node and add to head
 		ListNode* NewNode = new ListNode(val, n);
 		head = NewNode;
@@ -199,7 +199,7 @@ void LinkedList<T>::appendSpecific(T val, int target, string n) {
 template<typename T>
 void LinkedList<T>::search(int target) {
 	ListNode *NodePtr = head;
-	int index = 1;
+	int index = 0;
 
 	// If head is index, cout
 	if (index == target) {
@@ -238,7 +238,7 @@ void LinkedList<T>::remove(int target) {
 	ListNode *NodePtr, *previousNodePtr;
 	NodePtr = head;
 	previousNodePtr = head;
-	int index = 1;
+	int index = 0;
 
 	// Thing Keith showed us in 151, I forget the exact function, only that it's important...
 	if (!head) {
@@ -269,7 +269,7 @@ template<typename T>
 void LinkedList<T>::displayList() const {
 	// Start at the head of the list
 	ListNode *NodePtr = head;
-	int index = 1;
+	int index = 0;
 
 	// Out the linked list, node by node
 	while (NodePtr) {
@@ -282,3 +282,4 @@ void LinkedList<T>::displayList() const {
 		index += 1;
 	}
 }
+#endif

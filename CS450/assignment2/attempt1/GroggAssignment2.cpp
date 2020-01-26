@@ -3,13 +3,11 @@
 #include <iostream>
 #include <string>
 
-// Virgin Windows file path
+// Windows file path
 //#include "..\Project1\GroggLinkedList.cpp"
 
-// VS
-
-// Chad Linux file path
-#include "GroggLinkedList.cpp"
+// Linux file path
+#include "GroggLinkedListOverride.cpp"
 
 using namespace std;
 
@@ -36,20 +34,28 @@ char chooseType() {
 void generateList(char dataType) {
 	// Create Linked List and list input variable based on input
 	if (dataType == 'd') {
-		LinkedList<double> programListd;
-		programListd.runProgram();
+		//LinkedList<double> programListd;
+		//programListd.runProgram();
+		ListOverride<double> programListd;
+		programListd.runProgramNew();
 	}
 	else if (dataType == 'i') {
-		LinkedList<int> programListi;
-		programListi.runProgram();
+		//LinkedList<int> programListi;
+		//programListi.runProgram();
+		ListOverride<int> programListi;
+		programListi.runProgramNew();
 	}
 	else if (dataType == 's') {
-		LinkedList<string> programLists;
-		programLists.runProgram();
+		//LinkedList<string> programLists;
+		//programLists.runProgram();
+		ListOverride<string> programLists;
+		programLists.runProgramNew();
 	}
 	else { //dataType == c
-		LinkedList<char> programListc;
-		programListc.runProgram();
+		//LinkedList<char> programListc;
+		//programListc.runProgram();
+		ListOverride<char> programListc;
+		programListc.runProgramNew();
 	}
 }
 
