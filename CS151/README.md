@@ -2,3 +2,5 @@
 
 This class dealt with introducing important programming concepts such as recursion, templates,
 memory management, inheritance and pointers.
+
+Re-add programs with just cpp
