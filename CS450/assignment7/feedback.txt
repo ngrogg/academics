@@ -1,0 +1,10 @@
+This project was interesting, as I spent an equal amount of time programming,
+searching for a data set that wasn't too hard and recording the results.
+Machine learning has always been my Achilles heel in programming, even worse
+than pointers. I liked that we were given existing code, since I would not
+have been able to come up with this on my own in two weeks. I also liked that
+there were minimal libraries, as Python can have some incredibly specific
+libraries. I did't spend too much time running the actual code as I picked a
+simple dataset and have a fairly powerful desktop. I didn't keep exact track
+of time but I probably spent around 8 or so hours (not including run-time) on 
+this project.
